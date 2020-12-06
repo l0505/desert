@@ -1,4 +1,4 @@
-
+#matrix przez nested loop
 
 X = [[12,7],
     [4 ,5],
@@ -7,9 +7,9 @@ X = [[12,7],
 result = [[0,0,0],
          [0,0,0]]
 
-#iteracja 1
+#iteracja przez rzedy
 for i in range(len(X)):
-   # iteracja 2
+   # iterate przez kolumny
    for j in range(len(X[0])):
        result[j][i] = X[i][j]
 
