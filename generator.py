@@ -1,4 +1,4 @@
 
 import random #importujemy random library
 
-print(random.randint(0,10000))
+print(random.randint(0,99))
